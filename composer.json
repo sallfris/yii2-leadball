@@ -1,0 +1,29 @@
+{
+  "name": "sallfris/yii2-leadball",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MPL-2.0",
+  "authors": [
+    {
+      "name": "sallfris",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "sallfris/leadball-api": "*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/sallfris/leadball-api.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "sallfris\\Yii2Leadball\\" : "src/" }
+  }
+}
